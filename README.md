@@ -31,7 +31,7 @@ Sintaxis
 
 ´´´
 
-- Angular resuelve la expressión y le pasa el valor a la propiedad DOM del elemento donde se implementa.
+- Angular resuelve la expressión y le pasa el valor a la [propiedad DOM] (https://developer.mozilla.org/es/docs/Web/API/Element) del elemento donde se implementa.
 - Esa propiedad se puede confundir con atributo HTML porque en la mayoría de los casos tienen el mismo nombre.
 
 ## Event binding
