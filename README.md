@@ -44,5 +44,5 @@ Sintaxis
 
 ´´´
 
-- Angular resuelve la expresión, normalmente la invocación de un método, y ejecuta el resultado.
+- Angular resuelve la expresión cuando se dispara el [evento del DOM](https://developer.mozilla.org/es/docs/Web/Events) en el elemento, normalmente la invocación de un método, y ejecuta el resultado.
 - Similares a la template-expressión pero si pueden modificar el estado.
