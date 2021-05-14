@@ -46,3 +46,29 @@ Sintaxis
 
 - Angular resuelve la expresión cuando se dispara el [evento del DOM](https://developer.mozilla.org/es/docs/Web/Events) en el elemento, normalmente la invocación de un método, y ejecuta el resultado.
 - Similares a la template-expressión pero si pueden modificar el estado.
+
+## Two Way binding
+
+Sintaxis 
+
+´´´
+
+[(ngModel)]="propiedad"
+
+´´´
+
+- Realiza la actualización de valores entre la plantilla y la clase del componente en los
+dos sentidos y se implementa dentro de un input mediante FormsModule.
+
+## Acceso al DOM en Angular
+
+En ambos casos el acceso está disponible en ngAfterViewInit()
+
+# Acceso a un elemento único
+
+- Utiliza el decorador ViewChild => ver componente
+
+# Acceso a varios elementos
+
+- Utiliza el decorador ViewChildren => ver componente
+
