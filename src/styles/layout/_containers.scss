@@ -1,0 +1,62 @@
+.container {
+    max-width: $pc-size;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    padding: 1rem;
+
+    @media (max-width: $tablet-size) {
+        & {
+            flex-direction: column;
+            padding: 1rem 0.5rem;
+        }
+    }
+
+}
+
+.col {
+
+    &-100 {
+        width: 100%;
+        padding: 0.5rem 1rem;
+    }
+    
+    &-75 {
+        width: 75%;
+        padding: 0.5rem 1rem;
+    }
+    
+    &-66 {
+        width: 66.6666%;
+        padding: 0.5rem 1rem;
+    }
+
+    &-50 {
+        width: 50%;
+        padding: 0.5rem 1rem;
+    }
+    
+    &-33 {
+        width: 33.3333%;
+        padding: 0.5rem 1rem;
+    }
+    
+    &-25 {
+        width: 25%;
+        padding: 0.5rem 1rem;
+    }
+
+    @media (max-width: $tablet-size) {
+
+        &-75,
+        &-66,
+        &-50,
+        &-33,
+        &-25 {
+            width: 100%;
+        }
+    }
+
+}
